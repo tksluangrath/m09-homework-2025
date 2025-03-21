@@ -13,7 +13,7 @@ class BookLover():
         )
     
     def add_book(self, book_name, rating):
-        if book_name in self.book_list['book_name'].values:
+        if self.book_list['book_name'].isin([book_name]).any():
             print(f'{book_name} is already in the book list.')
         else:
             new_book = pd.DataFrame({'book_name': [book_name], 'book_rating': [rating]})

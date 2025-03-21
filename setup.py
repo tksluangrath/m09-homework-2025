@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Booklover',
-    version='0.1',
+    version='0.2',
     description='A package to store book-user data',
     url='https://github.com/tksluangrath/m09-homework-2025',
     author='Terrance Luangrath',
